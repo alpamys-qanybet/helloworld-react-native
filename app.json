@@ -1,5 +1,15 @@
 {
   "expo": {
-    "sdkVersion": "20.0.0"
+    "name": "Hello world React Native",
+    "icon": "./assets/android/icon/web_hi_res_512.png",
+    "version": "1.0.0",
+    "slug": "your-app-slug",
+    "sdkVersion": "20.0.0",
+    "ios": {
+      "bundleIdentifier": "kz.essc.react.tut.helloworld"
+    },
+    "android": {
+      "package": "kz.essc.react.tut.helloworld"
+    }
   }
 }
